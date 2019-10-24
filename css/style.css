@@ -11,9 +11,16 @@
 }
 
 #index-banner {
-  background-image: url("../images/try1.png"); /* The image used */
+  background-image: url("../images/banner.png"); /* The image used */
   background-color: #ffffff; /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: contain; /* Resize the background image to cover the entire container */
+}
+
+.fa{
+  color: #000;
+}
+footer .fa{
+  color: #fff;
 }

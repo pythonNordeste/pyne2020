@@ -12,32 +12,24 @@
   <link rel="shortcut icon" href="favicon (7).ico" type="image/x-icon">
   <link rel="icon" href="favicon (7).ico" type="image/x-icon">
 
-	<style>
-		.fa{
-			color:#000;
-		}
-    footer .fa{
-			color:#fff;
-		}
-	</style>
 </head>
 <body>
   <div class="navbar-fixed scrollspy">
-    <nav class="grey darken-2">
+    <nav class="grey darken-4">
       <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">PyNE 2020</a>
+        <a href="/" class="brand-logo">PyNE 2020</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#evento">Evento</a></li>
-          <li><a href="#">Local</a></li>
-          <li><a href="#">Patrocínio</a></li> 
+          <li><a href="#local">Local</a></li>
+          <li><a href="#patrocinio">Patrocínio</a></li> 
           <li><a href="#">Código de Conduta</a></li>        
         </ul>
         
         <ul class="side-nav" id="mobile-demo">
           <li><a href="#evento">Evento</a></li>
-          <li><a href="#">Local</a></li>
-          <li><a href="#">Patrocínio</a></li>
+          <li><a href="#local">Local</a></li>
+          <li><a href="#patrocinio">Patrocínio</a></li>
           <li><a href="#">Código de Conduta</a></li>    
         </ul>
       </div>
@@ -61,23 +53,49 @@
     </div>
   </div>
 
+
   <!--   Mailist Section   -->
   <div class="container">
     <div class="section">
-      <div class="row">
-        <div class="col s12">
-          <h4 class="center">Fique por dentro!</h4>
-            <br><br>
-            <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-            </p>
+      <div id="clockdiv" class="row center">
+        <div class="col s12 m6 l3">
+          <h4>
+            <span class="days"></span>
+            <div class="light">Dias</div>
+          </h4>
+        </div>
+        <div class="col s12 m6 l3">
+          <h4>
+            <span class="hours"></span>
+            <div class="light">Horas</div>
+          </h4>
+        </div>
+        <div class="col s12 m6 l3">
+          <h4>
+            <span class="minutes"></span>
+            <div class="light">Minutos</div>
+          </h4>
+        </div>
+        <div class="col s12 m6 l3">
+          <h4>
+            <span class="seconds"></span>
+            <div class="light">Segundos</div>
+          </h4>
+        </div>
+      </div>
 
+      <div class="row center">
+        <div class="col s12">
+            <p class="light">
+            Gostaria de ser informado sobre as novidades do evento? Deixe seu e-mail conosco!
+            </p>
               <form class="col s12 validate" action="https://pythonnordeste.us13.list-manage.com/subscribe/post?u=8d2cb3900e4e168c912198f88&amp;id=346baed484" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
                 <div class="row">
                   <div class="input-field col s2">
                   </div>
                   <div class="input-field col s6">
                     <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                    <label for="mce-EMAIL">Email *</label>
+                    <label for="mce-EMAIL">Email</label>
                   </div>
 
                   <div class="input-field col s2">
@@ -99,55 +117,50 @@
           </div>
         </div>
       </div>
-      <br><br>
     </div>
   </div>
 
   <!--   About Section   -->
+  <div class="parallax-container" style="height: auto">
+  <div class="parallax"><img src="images/pyne2019.jpg" style="background-size: cover; botton"></div>  
   <div class="container">
-    <div id="evento" class="section">
+    <div id="evento" class="section white-text">
+      <br><br>
       <div class="row">
         <div class="col s12">
           <h4 class="center">Sobre</h4>
-          <div class="col s12 l6">
-            <img src="images/rectangle.png">
+          <div class="col s12 l6 center">
+            <img src="images/jangada.png" style="max-height: 300px">
           </div>
           <div class="col s12 l6">
             <br><br>
-            <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
+            <p class="light">
+              A Python Nordeste é o maior encontro da comunidade Python na região. É um evento itinerante que ocorre anualmente nas cidades do Nordeste.
+            </p>
+            <p class="light">
+              Com foco na promoção da diversidade e troca de experiências e conhecimento, o evento é voltado para indivíduos de diversas áreas e origens, sem distinção de conhecimento técnico ou atuação na área.
+            </p>
+            <p class="light">
+              O encontro visa difundir a linguagem entre universidades, empresas, instituições da sociedade civil e indivíduos em busca de novos conhecimentos, promovendo assim a difusão da cultura do Software Livre e o estímulo ao desenvolvimento na Região Nordeste.
             </p>
           </div>
         </div>
       </div>
       <br><br>
+      </div>
     </div>
   </div>
 
-  <div class="section grey lighten-3">
+  <div id="local" class="section grey lighten-3">
+    <br><br>
     <div class="container">
       <div class="row">
         <div class="col s12">
           <h4 class="center">Local do evento</h4>
-          <div class="col s12 l6">
-            <br><br>
-            <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            </p>
-          </div>
-          <div class="col s12 l6">
-            <img src="images/rectangle.png">
-          </div>
+          <br>
+          <h3 class="light center">
+          EM BREVE
+          </h3>
         </div>
       </div>
       <br><br> 
@@ -156,20 +169,16 @@
 
   <!--   About Section   -->
   <div class="container">
-    <div id="" class="section">
+    <div id="patrocinio" class="section">
+      <br><br>
       <div class="row">
         <div class="col s12">
           <h4 class="center">Patrocínio</h4>
           <div class="col s12 center">
-            <br><br>
-            <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-            </p>
+            <br>
+            <h3 class="light center">
+            EM BREVE
+            </h3>
           </div>
         </div>
       </div>
@@ -184,8 +193,8 @@
               <h5 class="white-text">Sobre</h5>
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="#evento">Evento</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#">Local</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#">Patrocínio</a></li> 
+                  <li><a class="grey-text text-lighten-3" href="#local">Local</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#patrocinio">Patrocínio</a></li> 
                   <li><a class="grey-text text-lighten-3" href="#">Código de Conduta</a></li>
                 </ul>
               </div><!--col-->
@@ -226,6 +235,11 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+  </script>
 	
   </body>
 </html>
