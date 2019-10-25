@@ -18,6 +18,11 @@
   background-size: contain; /* Resize the background image to cover the entire container */
 }
 
+.navbar-img-logo {
+  height: 48px;
+  margin-right: 0.7rem;
+}
+
 .fa{
   color: #000;
 }
