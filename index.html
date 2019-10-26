@@ -17,13 +17,11 @@
   <div class="navbar-fixed scrollspy">
     <nav class="grey lighten-5">
       <div class="nav-wrapper container">
+        <img class="navbar-img-logo hide-on-small-only" src="./images/jangada.png">
         <a href="/" class="brand-logo black-text">
-          <div class="valign-wrapper">
-            <img class="navbar-img-logo" src="./images/jangada.png">
-            <span>PyNE 2020</span>
-          </div>
+            PyNE 2020
         </a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="black-content mdi-navigation-menu"></i></a>
         <ul class="right hide-on-med-and-down">
           <li><a class="black-text" href="#evento">Evento</a></li>
           <li><a class="black-text" href="#local">Local</a></li>
@@ -32,10 +30,10 @@
         </ul>
         
         <ul class="side-nav" id="mobile-demo">
-          <li><a class="black-text" href="#evento">Evento</a></li>
-          <li><a class="black-text" href="#local">Local</a></li>
-          <li><a class="black-text" href="#patrocinio">Patrocínio</a></li>
-          <li><a class="black-text" href="#">Código de Conduta</a></li>    
+          <li><a class="black-text sidenav-close dismiss-menu" href="#evento">Evento</a></li>
+          <li><a class="black-text dismiss-menu" href="#local">Local</a></li>
+          <li><a class="black-text dismiss-menu" href="#patrocinio">Patrocínio</a></li>
+          <li><a class="black-text dismiss-menu" href="#">Código de Conduta</a></li>    
         </ul>
       </div>
     </nav>
@@ -244,10 +242,9 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script>
-  $(document).ready(function(){
-    $('.parallax').parallax();
-  });
+    $(document).ready(function(){
+      $('.parallax').parallax();
+    });
   </script>
-	
   </body>
 </html>
