@@ -17,13 +17,11 @@
   <div class="navbar-fixed scrollspy">
     <nav class="grey lighten-5">
       <div class="nav-wrapper container">
+        <img class="navbar-img-logo hide-on-small-only" src="./images/jangada.png">
         <a href="/" class="brand-logo black-text">
-          <div class="valign-wrapper">
-            <img class="navbar-img-logo" src="./images/jangada.png">
-            <span>PyNE 2020</span>
-          </div>
+            PyNE 2020
         </a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="black-content mdi-navigation-menu"></i></a>
         <ul class="right hide-on-med-and-down">
           <li><a class="black-text" href="#evento">Evento</a></li>
           <li><a class="black-text" href="#local">Local</a></li>
@@ -32,10 +30,10 @@
         </ul>
         
         <ul class="side-nav" id="mobile-demo">
-          <li><a class="black-text" href="#evento">Evento</a></li>
-          <li><a class="black-text" href="#local">Local</a></li>
-          <li><a class="black-text" href="#patrocinio">Patrocínio</a></li>
-          <li><a class="black-text" href="#">Código de Conduta</a></li>    
+          <li><a class="black-text sidenav-close dismiss-menu" href="#evento">Evento</a></li>
+          <li><a class="black-text dismiss-menu" href="#local">Local</a></li>
+          <li><a class="black-text dismiss-menu" href="#patrocinio">Patrocínio</a></li>
+          <li><a class="black-text dismiss-menu" href="#">Código de Conduta</a></li>    
         </ul>
       </div>
     </nav>
@@ -43,21 +41,24 @@
 
   <!--   Main Section   -->
   <div class="section no-pad-bot grey lighten-5" id="index-banner">
-    <div class="container">
+    <div id="banner-content" class="container">
       <br><br>
-      <h1 class="header grey-text text-darken-3">Python <br> Nordeste 2020</h1>
       <div class="row">
+        <h1 class="header grey-text text-darken-3">Python<br>Nordeste 2020</h1>
         <h5 class="header col s12 light">Fortaleza, Ceará | 17, 18 e 19 de Julho</h5>
       </div>
-      <br><br>
-      <br><br>
       <div class="row center">
         <a href="#evento" class="btn-floating btn-large waves-effect waves-light grey darken-3"><i class="fa fa-angle-double-down"></i></a>
       </div>
       <br><br>
+      <div class="hide-on-small-only">
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+      </div>
     </div>
   </div>
-
 
   <!--   Mailist Section   -->
   <div class="container">
@@ -127,7 +128,7 @@
 
   <!--   About Section   -->
   <div class="parallax-container" style="height: auto">
-  <div class="parallax"><img src="images/pyne2019.jpg" style="background-size: cover; botton"></div>  
+  <div class="parallax"><img src="images/pyne2019.jpg" style="background-size: cover"></div>  
   <div class="container">
     <div id="evento" class="section white-text">
       <br><br>
@@ -241,10 +242,9 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script>
-  $(document).ready(function(){
-    $('.parallax').parallax();
-  });
+    $(document).ready(function(){
+      $('.parallax').parallax();
+    });
   </script>
-	
   </body>
 </html>

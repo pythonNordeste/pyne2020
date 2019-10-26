@@ -10,22 +10,28 @@
   padding: 0 15px;
 }
 
+.black-content {
+  color: black;
+}
+
 #index-banner {
   background-image: url("../images/banner.png"); /* The image used */
   background-color: #ffffff; /* Used if the image is unavailable */
-  background-position: center; /* Center the image */
+  background-position: bottom; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: contain; /* Resize the background image to cover the entire container */
 }
 
 .navbar-img-logo {
   height: 48px;
-  margin-right: 0.7rem;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
 .fa{
   color: #000;
 }
+
 footer .fa{
   color: #fff;
 }
